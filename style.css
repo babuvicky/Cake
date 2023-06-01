@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size:2rem;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding:-5rem 5rem;
+    box-shadow:5px 5px 20px rgba(0,0,0,.1);
+    background: #fff;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:#000;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+    color: #000;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(248,26,92);
+}
+.btn0{
+    height: 40px;
+    width:40%;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,1)), url(./assets/cake5.jpg)no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width:100%;
+    height: 100vh;
+}
+.main h1{
+    color:#fff;
+    font-size: 3rem
+}
+.btn1{
+    height: 45px;
+    width:35%;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+     /*........products........ */
+
+#Product{
+    background: #e5e5e5;
+}     
+#Product h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color:crimson;
+
+}
+#Product h2{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 700;
+
+}
+#Product img{
+    border-radius:20px 20px 20px 20px;
+    width:300px;
+    height: 300px;
+    background-size: cover;
+
+    
+
+}
+.card{
+    background: #e5e5e5 !important;
+    border: none  !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3),inset 4px 4px 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3),inset -4px -4px 10px #fff;
+    transition: 0.5s;
+
+}
+.click{
+    background-color: rgb(194, 191, 191) !important;
+    color:black !important;
+    border:none !important;
+    box-shadow: 2px 4px 5px #000;
+}
+.click:hover{
+    box-shadow: inset 5px 5px 10px rgb(194, 191, 191,0.4),inset -4px -4px 5px #fff;
+    transition: 0.5s;
+}
+   /* about...... */
+#about{
+    background: #e5e5e5;
+}
+#about h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 700;
+
+}
+#about img{
+    width:250px;
+    height:200px;
+    box-shadow: 5px 5px 10px  rgb(0,0,0,.3), -4px -4px 5px rgba(0,0,0,0.1);
+    background-size: cover;
+    
+
+}
+#about p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+     /* ....footer... */
+.contact{
+    background: #e5e5e5;
+    
+} 
+.contact h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 700;
+
+}    
+.news{
+    background-color: #000;
+    color: #fff;
+}    
+.btn3{
+    height:41px;
+    width:100px;
+    background-color: #fff;
+    margin-left:-50px;
+    border:2px solid #fff;
+    font-weight:600;
+    /* border-radius: 60px; */
+} 
+.news input{
+    height:40px;
+    width:65%;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: #000;
+    color:white;
+    margin-top:20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color:white;
+    margin-left: 40px;
+}
+.news p{
+    margin:0;
+}
+.news i{
+    font-size: 40px;
+    margin: 4px;
+    cursor: pointer;
+}
