@@ -49,7 +49,7 @@
     font-weight: 700;
 }
 .main{
-    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,1)), url(./assets/cake5.jpg)no-repeat;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,1)), url(./assets/cake4.jpg)no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     width:100%;
@@ -70,26 +70,22 @@
     border-radius: 60px;
     font-weight: 700;
 }
-.carousel-inner{
-    position: relative;
-}
-.carousel-inner.carousel-item{
-    z-index:1;
+/* .carousel-item .slide {
     position: absolute;
-    width:100%;
-    height:90vh;
+    z-index: 1;
+    top:8rem;
+    left:9rem;
+    height: 90vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.slide h1{
+    line-height: 2px;
+    color:white;
+
 }
 .carousel-item img{
-    z-index:1;
-    position: absolute;
-    width:100%;
-   
-}
-.carousel-inner.carousel-item .slide{
-    position:absolute;
-    top:0;
-}
-
+    opacity: 0.8; */
+/* } */
      /*........products........ */
 
 #Product{
@@ -171,6 +167,15 @@ align-items: center;
     #about h1{
         font-size: 30px!important;
     }
+    #Product img{
+        width:250px;
+        height: 250px;
+        padding-top: 30px;
+    }
+    .cord:hover .cord-body{
+        width:250px;
+        height:250px;
+    }
     #Product h2{
         font-size: 30px!important;
     }
@@ -194,6 +199,7 @@ align-items: center;
     }
 }
 /*    end      */
+
    /* about...... */
 #about{
     background: #e5e5e5;
@@ -209,8 +215,6 @@ align-items: center;
     height:400px;
     box-shadow: 5px 5px 10px  rgb(0,0,0,.3), -4px -4px 5px rgba(0,0,0,0.1);
     background-size: cover;
-    
-
 }
 #about p{
     font-family:'Times New Roman', Times, serif;
