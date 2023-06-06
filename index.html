@@ -10,10 +10,9 @@
   <!-- CSS Link -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="./assets/cakerounded.pngx">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 
   <title>Cake</title>
 </head>
@@ -25,12 +24,15 @@
       <a class="navbar-brand" href="#">CakeShop</a>
       <button class="navbar-toggler" type="butx ton" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        <span class="navbar-toggler-icon">
+          <i id="menu" class="fa-solid fa-bars"></i>
+          <!-- <i id="x-mark" class="fa-solid fa-xmark"></i> -->
+        </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav m-auto my-2 my-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#Home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Product">Products</a>
@@ -217,7 +219,7 @@
         <div class="col-lg-6 col-md-5 col-12">
           <img src="./assets/Strawberry-Chocolate-Brownie.jpg">
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class=" para col-lg-6 col-md-6 col-12">
             <p>We at The Cake Shop specialize in Desserts & Cakes. we believe in <strong>"Quality in our Edge"</strong>,
                from selecting the ingredients around India to the final exqusite creation that <strong>"Bring you smiles for Sure".</strong></p>
             <p>Our cakes & Desserts receive a lot of compliments and are complimented by wide range of exclusive desserts.</p>
@@ -235,14 +237,14 @@
       <div class="row ">
         <div class="col-lg-5 m-auto text-center">
           <h1 class="head">CONTACT US</h1>
-          <p>Always Be in Touch With Us</p>
+          <p style="color:rgb(238, 15, 45)">Always Be in Touch With Us</p>
           <hr>
         </div>
       </div>
       <div class="row py-5">
         <div class="col-lg-9 m-auto">
           <div class="row">
-            <div class="col-lg-4 ">
+            <div class="col-lg-4 pe-5">
               <h4>LOCATION</h4>
               <p>Nanganallur,chennai-61,Tamilnadu</p>
 
@@ -253,7 +255,7 @@
               <p>cakeshop@gmail.com</p>
 
             </div>
-            <div class="col-lg-7 ">
+            <div class="col-lg-7 pe-5">
               <div class="row">
                 <div class="col-lg-6 py-2">
                   <input type="text" class="form-control bg-light" placeholder="Enter the name">
@@ -280,33 +282,33 @@
     <div class="container py-5">
       <div class="row ">
         <div class="col-lg-9 m-auto text-center">
-          <h1>Join Our Secret Society</h1>
-          <input type="email" class="px-3" placeholder="Enter Your Email">
-          <button class="btn3">Send</button>
+          <h1>Join Our Society</h1>
+          <input type="email" class="px-3" id="email" placeholder="Enter Your Email">
+          <button class="join btn3">JOIN</button>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-11">
           <div class="row">
-            <div class="col-lg-3 py-5">
+            <div class="col-lg-3 col-md-6 col-12 py-3">
               <h4 class="py-4">CUSTOMER CARE</h4>
               <p>Regular</p>
               <p>On Time</p>
               <p>Always Care</p>
             </div>
-            <div class="col-lg-3 py-5">
+            <div class="col-lg-3 col-md-6 col-12 py-3">
               <h4 class="py-4">CUSTOMER CARE</h4>
               <p>Regular</p>
               <p>On Time</p>
               <p>Always Care</p>
             </div>
-            <div class="col-lg-3 py-5">
+            <div class="col-lg-3 col-md-6 col-12 py-3">
               <h4 class="py-4">CUSTOMER CARE</h4>
               <p>Regular</p>
               <p>On Time</p>
               <p>Always Care</p>
             </div>
-            <div class="col-lg-3 py-5">
+            <div class="col-lg-3 col-md-6 col-12 py-3">
               <h4 class="py-4" >Social Media</h4>
               <i class="fa-brands fa-facebook"></i>
               <i class="fa-brands fa-instagram"></i>
@@ -317,14 +319,27 @@
           </div>
         </div>
       </div>
+    </div>  
+  </section>     
+  <section class="base">
+    <div class="footer col-12">
+      <div>
+       <h1>
+        <span><i class="fa-solid fa-circle-check"></i></span>
+        Thanks For Join Our Socity
+      </h1>
+       <p class="text-center">your have more offers too you! </p>
+       <button class="btn4" id="Back">Back</button>
+      <div>
     </div>
-  </section>      
+  </section>
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
